@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Titulo de mi web</title>
+    </head>
+    <body>  
+        <h1>Titulo</h1>
+        <h2>Subtitulo</h2>
+        <h3>Subtitulo 2</h3>
+
+        <p>Esto es una etiqueta
+            de parrafo.
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
+            Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 
+            cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una 
+            galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. 
+            No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos 
+            electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la 
+            creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente 
+            con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+        </p><br>
+
+        <h3>Listas</h3>
+        <ol>
+            <li>Pera</li>
+            <li>Sandia</li>
+            <li>Piña</li>
+            <li>Naranjas</li>
+        </ol><hr>
+
+        <ol>
+            <li>Mandarina</li>
+            <li>Guayaba</li>
+            <li>Manzana
+                <ul>
+                    <li>Roja</li>
+                    <li>verde</li>
+                </ul>
+            </li>  
+        </ol><hr>
+
+        <h3>Imagen de prueba</h3>
+        <img src="Imagenes/panda.jpg" alt="Imagen de un oso panda" title="OSO PANDA" width="500" height="400" /><br><br>
+
+        <h3>Tabla de contenido</h3>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Tipo</th>
+                <th>Pais</th>
+            </tr>
+            <tr>
+                <td>Panda</td>
+                <td>Oso</td>
+                <td>Japón</td>
+            </tr>
+            <tr>
+                <td colspan="3" >Datos del animal</td>
+            </tr>
+        </table><br><hr>
+
+        <h3>Formulario</h3>
+        <form> 
+            <p>
+                <label for="nombre">Nombre del campo</label>
+                <input type="text" name="nombre" placeholder="Escribe aqui tu nombre">
+            </p>
+
+            <p>
+                <label for="descripcion">Descripcion</label>
+                <textarea name = "descripcion"></textarea>
+            </p>
+            
+            <h3>Radio Button</h3>
+            <input type="radio" name="genero" value="hombre">Hombre <br>
+            <input type="radio" name="genero" value="hombre">Mujer <br>
+            <input type="radio" name="genero" value="hombre">No elije <br>
+
+            <h3>Selector</h3>
+            <select name="genero2">
+                <option>Selecionar</option>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="no elije">No elije</option>
+            </select><br><br>
+            
+            <input type = "submit" value="enviar formulario"><br><br>
+            <input type="search" placeholder="Buscar">
+        </form>
+    </body>
+</html>
