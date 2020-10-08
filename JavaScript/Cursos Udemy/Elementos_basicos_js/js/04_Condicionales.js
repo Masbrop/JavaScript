@@ -1,6 +1,6 @@
 'use strict'
 
-// if - else
+// IF - ELSE
 
 var edad1 = 12;
 var edad2 = 30;
@@ -55,3 +55,26 @@ if(year >= 2000 && year <= 2020){
 if(year == 2008 || year == 2018){
     console.log("El año termina en 8");
 }
+
+// SWITCH
+var edad = 18;
+var imprime = "";
+
+switch(edad){
+    case 18:
+        imprime = "Acabas de cumplir mayoria de edad";
+    break;
+    case 25:
+        imprime = "Ya eres adulto";
+    break;
+    case 40:
+        imprime = "Crisis de los 40";
+    break;
+    case 75:
+        imprime = "Eres un anciano";
+    break;
+    default:
+        imprime = "Tu edad es neutra";
+}
+
+console.log(imprime);
