@@ -36,6 +36,7 @@ var busqueda8 = texto.endsWith("completo");
 console.log(busqueda8);
 //Este metodo nos arroja true o false si encuentra la palabra que le indicamos (pero solo lo que este al final del texto)
 
+
 var busqueda9 = texto.includes("JavaScript");
 console.log(busqueda9);
 //Este metodo nos arroja true o false si encuentra la palabra que le indicamos (En cualquier posicion)
@@ -50,3 +51,23 @@ var extraer_texto2 = texto.charAt(3);
 console.log(extraer_texto2);
 //Extraer el texto de la posicion 3 hasta la posicion 5 (desde, hasta)
 
+
+var busqueda10 = texto.replace("JavaScript", "Symfony");
+console.log(busqueda10)
+//Sirve para itercambiar el primer texto por el segundo texto
+
+
+var busqueda11 = texto.slice(3,12);
+console.log(busqueda11);
+//Corta el texto (Desde, Hasta)
+
+
+var busqueda12 = texto.split(" ");
+console.log(busqueda12);
+//Almacena todo en una array y puedo definir si quiero que lo separe 
+//("indico el caracter que los separa, en este caso el espacio")
+
+//ejemplo de uso
+for(var i = 0; i <= texto.length; i++){
+    console.log(busqueda12[i]);
+}
